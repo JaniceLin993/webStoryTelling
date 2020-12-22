@@ -35,9 +35,9 @@ body {
 
 #container .section .content {
     
-    width:50%;
+    width:500px;
     padding: 0px;
-    height: 50%;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
