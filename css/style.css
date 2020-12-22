@@ -1,0 +1,89 @@
+body {
+    margin-top: 0;
+    padding: 0;
+    font-family: consolas;
+    height: 4000px;
+     background-image: url("../assets/Pizza-Toppings.jpg");
+   
+
+}
+
+#container {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 100vh;
+    display: flex;
+   
+    
+
+}
+
+#container .section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;/*文字至中*/
+    align-items: center;/*物品至中*/
+
+
+}
+
+#container .section .content {
+    
+    width:50%;
+    padding: 0px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+#container .section .content .text{
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+}
+#container .section .content .text h1{
+    margin:0px;
+    padding:0px;
+    font-size: 1.5em;
+    color: black;
+    
+}
+#container .section .content .text p{
+    font-size: 0.5em;
+}
+#banner{
+    position: fixed;
+    background-color:black;
+    color: lightgray;
+    text-align: center;
+    width:100%;
+    margin-left: -10px;
+    opacity: 80%;
+    
+    }
+#banner .card_title{
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#banner .card_title img{
+    max-width: 40px;
+    max-height: 40px;
+}
+#container .section .content .text a:hover{
+  color:#260101;
+}
+#container .section .content .text a{
+  color:darkblue;
+  text-decoration:none;
+}

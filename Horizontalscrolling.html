@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Domino.taste</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <div id="banner">
+        <h4 class="card_title"><img class="card__logo" src="https://cache.dominos.com/intl/assets/img-logo-home.png" alt="Domino's Logo">
+         Discovery the taste of Domino</h4>
+    </div>
+    <div id="container">
+    
+        <div class="section">
+            <div class="content">
+                <div class="text">
+                    <h1>Black Sugar Pearl</h1>
+                    <p>With the taste of Black sugar pearl, you can try the Taiwanese style pizza and enjoy your time with this amazing pizza. Once you taste a bite, you must be crazy in love with it! Let's givie it a try!</p>
+                     <a href="https://www.dominos.com.tw/tastec_115_2.htm" class="btn btn-primary" target="_blank">Detail</a>
+                </div>
+               <img class="pic" src="assets/pizza1.jpg" alt="pizza1">
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="text">
+                    <h1>Hawaii</h1>
+                    <p>Hawaiian pizza, also known as pineapple pizza, is a pizza topped with pineapple, ham, tomato sauce and cheese. The dish tends to spark debate regarding the inclusion of pineapple on a pizza. Once you taste a bite, you must be crazy in love with it! Let's givie it a try!</p>
+                     <a href="https://www.dominos.com.tw/tastec_121_2.htm" class="btn btn-primary" target="_blank">Detail</a>
+                </div>
+               <img class="pic" src="assets/pizza2.jpg" alt="pizza2">
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="text">
+                    <h1>Lobster Beef</h1>
+                    <p>With the combination of beef and lobster, you must be surprise of this fantastic taste. All of the customers who have bought our pizza rank this one as their favorite pizza in our store.Once you taste a bite, you must be crazy in love with it! Let's givie it a try! </p>
+                     <a href="https://www.dominos.com.tw/tastec_120_2.htm" class="btn btn-primary" target="_blank">Detail</a>
+                </div>
+               <img class="pic" src="assets/pizza3.jpg" alt="pizza3">
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="text">
+                    <h1>American Pizza</h1>
+                    <p>Typical American pizza uses a cooked tomato sauce rather than fresh and the somewhat thicker Neapolitan-style crust. To my taste, it also overdoes everything. Two or three kinds of meat, multiple cheeses, and so on.Once you taste a bite, you must be crazy in love with it! Let's givie it a try! </p>
+                     <a href="https://www.dominos.com.tw/tastec_115_2.htm" class="btn btn-primary" target="_blank">Detail</a>
+                </div>
+               <img class="pic" src="assets/pizza4.jpg" alt="pizza5">
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            var scroll= $(window).scrollTop(),
+                dh=$(document).height(),
+                wh=$(window).height();
+                value=(scroll/(dh-wh))*100;
+            $('#container').css('left', - value * 3 
+             + '%')
+                                
+              });
+    </script>
+</body>
+
+</html>
